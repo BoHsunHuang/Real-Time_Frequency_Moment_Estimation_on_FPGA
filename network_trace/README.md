@@ -1,18 +1,18 @@
 # Real-Time_Frequency_Moment_Estimation network trace
 
 ## Traffic Traces
-(1)Scan anomaly detection
+(1)Scan anomaly detection <br>
 The traffic trace (202201101400) is available in the MAWI traffic archive. (https://mawi.wide.ad.jp/mawi/samplepoint-F/2022/202201101400.html)
 
-(2)Weibull model parameters
+(2)Weibull model parameters <br>
 We prepared the synthetic trace (Merged_MAWI19040918+CAIDAdual_oneway.pcap) by merging two sections of the attacking period with the chosen background traffic from MAWI DITL 2019 trace archive. 
 
-(a)CAIDA 2007 DDoS trace (Attacking):
-Four DDoS attacking traffic are selected from the CAIDA 2007 DDoS trace (to-victim).
-20070804_140436.pcap
-20070804_140936.pcap
-20070804_141436.pcap
-20070804_141936.pcap
+(a)CAIDA 2007 DDoS trace (Attacking): <br>
+Four DDoS attacking traffic are selected from the CAIDA 2007 DDoS trace (to-victim).<br>
+20070804_140436.pcap<br>
+20070804_140936.pcap<br>
+20070804_141436.pcap<br>
+20070804_141936.pcap<br>
  We merge those four traces and form an attacking traffic of 15 minutes with a total packet of 50,841,437.
 
 
