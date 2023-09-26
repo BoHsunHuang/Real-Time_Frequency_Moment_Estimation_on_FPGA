@@ -4,9 +4,10 @@ We use the NetFPGA-PlUS framework for the development and validation of network 
 ## **Section I: System Requirement Dependency**
 Please refer to the [NetFPGA Wiki](<https://github.com/NetFPGA/NetFPGA-PLUS/wiki/Reference-Operating-System-Setup-Guide>) for instructions on building the experimental environment.
 ### Operating Systems
+For detailed configuration steps, please refer to the [NetFPGA-PLUS operating system](<https://github.com/NetFPGA/NetFPGA-PLUS/wiki/Reference-Operating-System-Setup-Guide>) setup or [open-nic-driver](<https://github.com/Xilinx/open-nic-driver> "Title").
 * Ubuntu 20.04 
 * Linux Kernel 5.3.0-050300
-* [open-nic-driver](<https://github.com/Xilinx/open-nic-driver> "Title")
+* open-nic-driver
 
 ### Xilinx Tools
 * Vivado 2020.2
@@ -17,8 +18,15 @@ Please refer to the [NetFPGA Wiki](<https://github.com/NetFPGA/NetFPGA-PLUS/wiki
 ### Xilinx Design and Xilinx IP License
 The NetFPGA-PlUS using Xilinx CMAC IP, a license would be required. Please see this [License Information page](<https://www.xilinx.com/products/intellectual-property/cmac_usplus.html> "Title") or [open-nic-shell](<https://github.com/Xilinx/open-nic-shell> "Title") page.
 
+### Python Environment
+The requirements.txt file should list all Python libraries that our dashboard depend on, and you will be installed using:
+
+``` bash
+pip install -r requirements.txt
+```
+
 ### Section II: Get the code base for Real-Time_Frequency_Moment_Estimation_on_FPGA and Build up!!!
-We provide automated testing scripts; please use `make` for automated testing.
+We provide automated testing scripts; please use `make` for automated testing. Please follow the instructions below for configuration.
 
 ```bash
 $ git clone git@github.com:BoHsunHuang/Real-Time_Frequency_Moment_Estimation_on_FPGA.git    # Change the path to "hardware"
