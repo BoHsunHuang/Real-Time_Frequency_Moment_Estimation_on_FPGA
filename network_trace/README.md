@@ -1,11 +1,10 @@
-# Real-Time_Frequency_Moment_Estimation network trace
+# Traffic Traces Preparation
 
-## Traffic Traces
-(1)Scan anomaly detection <br>
-The traffic trace (202201101400) is available in the MAWI traffic archive. <br> (https://mawi.wide.ad.jp/mawi/samplepoint-F/2022/202201101400.html)
+## MAWI Traffic Traces
+The traffic trace (202201101400) used for the ccan anomaly detection is available in the MAWI traffic archive. <br> (https://mawi.wide.ad.jp/mawi/samplepoint-F/2022/202201101400.html)
 
-(2)Weibull model parameters <br>
-We prepared the synthetic trace (Merged_MAWI19040918+CAIDAdual_oneway.pcap) by merging two sections of the attacking period with the chosen background traffic from MAWI DITL 2019 trace archive. 
+## Synthetic Trace
+We prepared the synthetic trace (Merged_MAWI19040918+CAIDAdual_oneway.pcap) for the Weibull model parameters by merging two sections of the attacking period with the chosen background traffic from MAWI DITL 2019 trace archive. 
 
 (a)CAIDA 2007 DDoS trace (Attacking): <br>
 Four DDoS attacking traffic are selected from the CAIDA 2007 DDoS trace (to-victim).<br>
