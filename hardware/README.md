@@ -1,7 +1,22 @@
-# Hardware Architecture
+# **Hardware Architecture**
 
-## Dependency
+## **Section I: System Requirement Dependency**
+### Operating Systems
+* Ubuntu 20.04 
+* Linux Kernel 5.3.0-050300
+* [open-nic-driver](<http://example.com/Hello World.html> "Title")
+
+### Xilinx Tools
+* Vivado 2020.2
+
+### Xilinx Design and Xilinx IP License
+
+### Development
+
+### Section II: Get the code base for NetFPGA-PLUS
+
 Vivado Ver
+
 
 OS
 
