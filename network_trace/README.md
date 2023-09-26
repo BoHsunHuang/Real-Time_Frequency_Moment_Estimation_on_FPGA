@@ -1,5 +1,5 @@
 # Traffic Traces Preparation
-
+Due to copyright issues and the size of the trace file, the traffic traces are not available in Github. They need to be prepared by the users.
 ## MAWI Traffic Traces
 The traffic trace (202201101400) used for the ccan anomaly detection is available in the MAWI traffic archive. <br> (https://mawi.wide.ad.jp/mawi/samplepoint-F/2022/202201101400.html)
 
@@ -12,8 +12,7 @@ Four DDoS attacking traffic are selected from the CAIDA 2007 DDoS trace (to-vict
 &ensp;20070804_140936.pcap<br>
 &ensp;20070804_141436.pcap<br>
 &ensp;20070804_141936.pcap<br>
- We merge those four traces and form an attacking traffic of 15 minutes with a total packet of 50,841,437.
-
+We merge those four traces and form an attacking traffic of 15 minutes with a total packet of 50,841,437.
 
 (b) MAWI DITL 2019 trace (Background): 
 The total time of the synthetic background trace is 60 minutes. <br>
