@@ -1,0 +1,13 @@
+patching file onic_hardware.h
+Hunk #1 succeeded at 27 (offset 1 line).
+patching file onic_main.c
+Hunk #1 succeeded at 192 with fuzz 2 (offset 5 lines).
+patching file onic_main.c
+Hunk #1 succeeded at 233 (offset 10 lines).
+patching file onic_netdev.c
+Hunk #1 succeeded at 25 with fuzz 1 (offset 1 line).
+Hunk #2 succeeded at 764 with fuzz 2 (offset 64 lines).
+Hunk #3 succeeded at 808 (offset 67 lines).
+patching file onic_netdev.h
+Hunk #1 succeeded at 49 with fuzz 2.
+patching file onic_register.h
