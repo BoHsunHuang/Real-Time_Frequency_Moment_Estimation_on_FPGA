@@ -1,24 +1,42 @@
 # **Hardware Architecture**
+We use the NetFPGA-PlUS framework for the development and validation of network performance features.
 
 ## **Section I: System Requirement Dependency**
+Please refer to the [NetFPGA Wiki](<https://github.com/NetFPGA/NetFPGA-PLUS/wiki/Reference-Operating-System-Setup-Guide>) for instructions on building the experimental environment.
 ### Operating Systems
 * Ubuntu 20.04 
 * Linux Kernel 5.3.0-050300
-* [open-nic-driver](<http://example.com/Hello World.html> "Title")
+* [open-nic-driver](<https://github.com/Xilinx/open-nic-driver> "Title")
 
 ### Xilinx Tools
 * Vivado 2020.2
+* [Alveo U200 Data Center Accelerator Card](<https://www.xilinx.com/products/boards-and-kits/alveo/u200.html> "Title")
+* 100GbE Ethernet Subsystem
+* QDMA
 
 ### Xilinx Design and Xilinx IP License
+The NetFPGA-PlUS using Xilinx CMAC IP, a license would be required. Please see this [License Information page](<https://www.xilinx.com/products/intellectual-property/cmac_usplus.html> "Title") or [open-nic-shell](<https://github.com/Xilinx/open-nic-shell> "Title") page.
 
-### Development
+### Section II: Get the code base for Real-Time_Frequency_Moment_Estimation_on_FPGA and Build up!!!
+We provide automated testing scripts; please use `make` for automated testing.
 
-### Section II: Get the code base for NetFPGA-PLUS
+```bash
+$ git clone git@github.com:BoHsunHuang/Real-Time_Frequency_Moment_Estimation_on_FPGA.git    # Change the path to "hardware"
+$ cd ./hardware             # Change the path to "hardware"
+$ make compile-hwtestlib    # Compile a C language shared library.
+$ make compile-driver       # Compile the NetFPGA-PLUS framework system driver.
+$ make bit                  # Progamming FPGA Bitstream and Auto Reboot
+$ make Update               # Initialize the hash module function and update the table data.
+$ make read                 # Launch the user dashboard interface.
+```
 
-Vivado Ver
+### Section III: Replay Traffic for System Testing.
 
+Please install the traffic replay tool `Tcpreplay`.
+```bash
+$ sudo tcpreplay -i <network card interface> --multiplier=1 <user_define>.pcap    # Replay the traffic using tcpreplay.
+```
 
-OS
 
 Compile Script/
 
