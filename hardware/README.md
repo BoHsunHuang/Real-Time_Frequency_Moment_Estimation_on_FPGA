@@ -19,8 +19,9 @@ For detailed configuration steps, please refer to the [NetFPGA-PLUS operating sy
 The NetFPGA-PlUS using Xilinx CMAC IP, a license would be required. Please see this [License Information page](<https://www.xilinx.com/products/intellectual-property/cmac_usplus.html> "Title") or [open-nic-shell](<https://github.com/Xilinx/open-nic-shell> "Title") page.
 
 ### Python Environment
-The requirements.txt file should list all Python libraries that our dashboard depend on, and you will be installed using:
 
+The requirements.txt file should list all Python libraries that our dashboard depend on, and you will be installed using:
+* Python 3.8.10
 ``` bash
 pip install -r requirements.txt
 ```
