@@ -2,6 +2,8 @@ This paper presents an implementation of the Frequency Moment estimation utilizi
 
 The frequency moment estimator is realized by Verilog HDL in the data plane of the NetFPGA-Plus framework in an UltraScale+ XCU200 FPGA.
 
+A live demo of the Frequency Moments & Shannon Entropy measurement on Xilinx U200 FPGA card by replaying the synthetic trace of MAWI+CAIDA2007 DDoS attacking traffic can be found in the YouTube link. [Live Demo Screen](https://youtu.be/2DYGdhCmW_4)
+
 ## Testbed Setup
 
 The trace can be re-played by using TCPReplay via Mellanox ConnectX-5 100G NIC to the Xilinx Alveo U200 FPGA card through a QSFP28 AOC Cable.
